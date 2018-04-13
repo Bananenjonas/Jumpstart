@@ -59,3 +59,9 @@ html  {
 .btn:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
+
+/*Featured Project*/
+
+.image-container a img {
+  width: 100%;
+}
