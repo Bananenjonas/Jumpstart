@@ -65,3 +65,39 @@ html  {
 .image-container a img {
   width: 100%;
 }
+
+/*.featuredprojectfont */
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+
+}
+
+#blue,
+h2 {
+  color: #399bd1;
+}
+
+.featuredprojectfont ul li {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.author {
+  font-style: italic;
+}
+
+.nopaddingleft  {
+  padding-left: 0;
+}
+
+/*Projects*/
+
+.imageopacity {
+  opacity: 0.7;
+}
+
+#project  {
+  padding-bottom: 5.85rem;
+}
