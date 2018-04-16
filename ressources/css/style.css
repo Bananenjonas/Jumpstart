@@ -20,6 +20,17 @@ html  {
   padding-right: 15px;
 }
 
+@media screen and (max-width: 480px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+.navbar-brand  {
+    display: none;
+  }
+}
+
 /*Jumbotron*/
 .jumbotron-bike {
   background-image: url("../images/jumbotron-bike.jpg");
