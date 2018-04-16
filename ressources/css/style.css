@@ -101,3 +101,28 @@ h2 {
 #project  {
   padding-bottom: 5.85rem;
 }
+
+/*Having trouble?*/
+#havingtrouble  {
+  padding-top: 5.2rem;
+  padding-bottom: 5.2rem;
+  background-color: #f3f3f3;
+}
+
+#nomargin {
+  margin-bottom: 0;
+}
+
+#havingtroubleheading {
+  color: black;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#havingtrouble .container p {
+  width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+}
