@@ -37,7 +37,24 @@ html  {
   color: white;
 }
 
-.jumbotron-bike .container h1 {
+.jumbotron-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+  color: white;
+}
+
+.jumbotron-flowers {
+  background-image: url("../images/jumbotron-flowers.jpg");
+  color: white;
+}
+.jumbotron-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
+  color: white;
+}
+
+.jumbotron-bike .container h1,
+.jumbotron-beer .container h1,
+.jumbotron-flowers .container h1,
+.jumbotron-duffel .container h1 {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   font-family: "Monoton";
   font-size: 7.1rem;
