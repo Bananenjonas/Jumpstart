@@ -38,7 +38,7 @@ html  {
 }
 
 .jumbotron-bike .container h1 {
-  text-shadow: 1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   font-family: "Monoton";
   font-size: 7.1rem;
   margin-top: 11.85rem;
@@ -71,6 +71,24 @@ html  {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
 }
 
+@media screen and (max-width: 480px) {
+  .jumbotron .container h1 {
+    font-size: 5.7rem;
+  }
+
+  .jumbotron .container h1,
+  .jumbotron .container p {
+    width: auto;
+  }
+
+  .navbar-brand img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    max-height: 100%;
+    width: auto;
+  }
+}
 /*Featured Project*/
 
 .image-container a img {
