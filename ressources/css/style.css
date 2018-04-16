@@ -131,6 +131,20 @@ h2 {
   padding-bottom: 5.85rem;
 }
 
+@media screen and (max-width: 480px)  {
+  .row  {
+    margin-left: auto;
+  }
+
+  #nospace  {
+    padding-left: 0;
+  }
+
+  .spacemobile  {
+    padding-bottom: 5.85rem;
+  }
+}
+
 /*Having trouble?*/
 #havingtrouble  {
   padding-top: 5.2rem;
